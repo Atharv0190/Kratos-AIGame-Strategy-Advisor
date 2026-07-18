@@ -1,25 +1,36 @@
 {
   "name": "Kratos - AI Game Strategy Advisor",
   "version": "1.0.0",
-  "description": "AI-powered football strategy advisor built using IBM watsonx Orchestrate.",
-  "platform": "IBM watsonx Orchestrate",
-  "model": "Granite-4.0-8B-Instruct",
+  "description": "AI-powered multi-agent football strategy advisor built using IBM watsonx Orchestrate, Granite-4.0-8B-Instruct, LangChain, and Retrieval-Augmented Generation.",
   "author": "Atharv",
+  "license": "MIT",
+  "platform": "IBM watsonx Orchestrate",
+  "llm": "Granite-4.0-8B-Instruct",
+  "backend": "FastAPI",
+  "frontend": "ReactJS + Tailwind CSS",
+  "framework": "LangChain",
+  "vectorDatabase": "FAISS",
+  "cloud": "IBM Cloud",
+  "authentication": "JWT",
+  "deployment": "Docker",
   "features": [
     "Match Analysis",
-    "Opponent Strategy",
+    "Opponent Strategy Analysis",
     "Strategy Recommendation",
     "Insight Explanation",
-    "RAG Knowledge Base"
+    "Retrieval-Augmented Generation (RAG)",
+    "Football Knowledge Base",
+    "Coach Chat Assistant",
+    "REST API",
+    "Visualization Dashboard"
   ],
-  "technologies": [
-    "IBM watsonx.ai",
-    "IBM watsonx Orchestrate",
-    "LangChain",
-    "FAISS",
-    "FastAPI",
-    "ReactJS",
-    "Tailwind CSS",
-    "Docker"
+  "knowledgeBase": [
+    "Historical Matches",
+    "Player Statistics",
+    "Opponent Profiles",
+    "Match Reports",
+    "Tactical Formations",
+    "Coaching Notes",
+    "Tournament History"
   ]
 }
