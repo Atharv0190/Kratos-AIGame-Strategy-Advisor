@@ -37,9 +37,9 @@ Coach
    ▼
 IBM watsonx Orchestrate (Kratos)
    │
- ┌─┼───────────────┐
- │ │ │ │
- ▼ ▼ ▼ ▼
+   ┼
+   │ 
+   ▼  
 Match Analysis Agent
 Opponent Strategy Agent
 Strategy Recommendation Agent
@@ -130,16 +130,6 @@ Kratos-AI-Game-Strategy-Advisor/
 │── README.md
 │── problemstatement.pdf
 │── projectpresentation.pptx
-│── requirements.txt
-│── docker-compose.yml
-
-├── frontend/
-├── backend/
-├── dataset/
-├── docs/
-├── langflow/
-└── architecture/
-```
 
 ---
 
